@@ -1,0 +1,85 @@
+num = int(input('Enter a number : '))
+if num%2 == 0:
+    print(num, 'is even')
+
+else:
+    print(num, 'is odd')
+A = 'Bintu'
+B = '30'
+print(A)
+print(B)
+C = A + '@' + B
+print(C)
+import random
+guess = int(input('Guess a number : '))
+answer = random.randint(100,200)
+print('Your guess : ' ,guess)
+print('Random number : ', answer)
+
+if guess == answer:
+   print('You guessed right')
+
+else:
+  print('Try again')
+List1 = [1,4,9,16,25]
+for i in [1,4,9,16,25]:
+    if i%2 == 0:
+        print(i)
+else :
+    print('All done')
+Tuple1 = (1,4,9,16,25)
+for i in (1,4,9,16,25):
+    if i%2 == 0:
+        print(i)
+else :
+    print('All done')
+# age = 10
+# count +=1
+# while count != age:
+#     age= count + age
+#      break
+#         print(age)
+
+print(type(5))
+print(type(5000*50000000))
+print(type(5))
+print(type('j'))
+print(type(1j))
+print(type(1,))
+print(type([1]))
+print(type(None))
+print(0.1 + 0.1 + 0.1)
+print(.1 + .1 + .1)
+initialNum = 0
+secondNum = 1
+
+counter = 0
+limit = 18
+
+fibNumbers = [initialNum, secondNum]
+
+while counter < limit:
+
+    nextNum = initialNum + secondNum
+
+    fibNumbers.append(nextNum)
+
+    initialNum = secondNum
+    secondNum = nextNum
+
+    counter = counter+1
+
+for number in fibNumbers:
+    print(number)
+
+A = 'Bintu'
+print(A[-1])
+
+for letter in A:
+   print(letter + ':' )
+storeList = []
+listOfNum =int(input('Enter ten numbers between one and eight \n'))
+for i in range(0, listOfNum):
+          numbers = int(input())
+storeList.append(numbers)
+print(storeList)
